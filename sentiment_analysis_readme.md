@@ -203,9 +203,9 @@ model/
 
 ---
 
-## 🙏 Credits
+##  Credits
 
-Built by [Vaibhav Jaitwal](https://github.com/veybhaav) MIT License
+Built by [Vaibhav Jaitwal](https://github.com/veybhaav)
 
 ---
 
