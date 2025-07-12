@@ -1,0 +1,14 @@
+
+services:
+  app:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./model:/app/model
+    environment:
+      - USE_TF=False
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:3000"
