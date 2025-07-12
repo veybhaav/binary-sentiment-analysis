@@ -9,14 +9,6 @@ A fully containerized, end-to-end microservice for **binary sentiment analysis**
 
 ---
 
-## 🌐 Demo Screenshots
-
-> (You can optionally embed demo video or screenshots here)
-
-
-
----
-
 ## 📊 Project Structure
 
 ```bash
@@ -174,25 +166,6 @@ Access the UI at: `http://localhost:3000`
 
 ---
 
-## 🚀 Deployment
-
-### Deploy Frontend to Vercel
-
-1. Push your project to GitHub
-2. Go to [vercel.com](https://vercel.com/) > Import Project > Link GitHub repo
-3. Set root to `frontend/` and framework to `React`
-4. Deploy
-
-### Deploy Backend to Render
-
-1. Zip only the `app/`, `model/`, and `Dockerfile`
-2. Go to [render.com](https://render.com/)
-3. Create a new Web Service from GitHub or zip
-4. Set build command: `pip install -r requirements.txt`
-5. Start command: `uvicorn app:app --host 0.0.0.0 --port 8000`
-6. Choose free instance (CPU-only)
-
----
 
 ## 📅 Model Notes
 
